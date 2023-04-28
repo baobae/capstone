@@ -1,0 +1,116 @@
+#title {
+    background-color: #594545;
+    color: #FFF8EA;
+}
+
+div > h2 {
+    font-family: 'Instrument Serif', serif;
+}
+
+.contact {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Instrument Serif', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.middle-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.deluchi {
+    width: 400px;
+}
+
+.bottom-container {
+    text-align: center;
+    background-color: #9E7676;
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    color: #FFF8EA;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #815B5B;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: #FFF8EA;
+    padding: 20px 0;
+}
+
+.contact {
+    margin: 20px;
+}
+
+
+.btn {
+    background: #594545;
+    background-image: -webkit-linear-gradient(top, #9E7676, #594545);
+    background-image: -moz-linear-gradient(top, #9E7676, #594545);
+    background-image: -ms-linear-gradient(top, #9E7676, #594545);
+    background-image: -o-linear-gradient(top, #9E7676, #594545);
+    background-image: linear-gradient(to bottom, #9E7676, #594545);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #FFF8EA;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: #FFF8EA;
+    background-image: -webkit-linear-gradient(top, #FFF8EA, #9E7676);
+    background-image: -moz-linear-gradient(top, #FFF8EA, #9E7676);
+    background-image: -ms-linear-gradient(top, #FFF8EA, #9E7676);
+    background-image: -o-linear-gradient(top, #FFF8EA, #9E7676);
+    background-image: linear-gradient(to bottom, #FFF8EA, #9E7676);
+    text-decoration: none;
+}
+
+.collection {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+}
+
+.photos {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sample {
+    width: 300px;
+}
+
+.gallery > h1 {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px;
+    text-align: center;
+}
