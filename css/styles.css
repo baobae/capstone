@@ -1,7 +1,13 @@
+/* Main Page CSS */
 #title {
     background-color: #594545;
     color: #FFF8EA;
 }
+
+html {
+    height: 100%;
+}
+
 
 div > h2 {
     font-family: 'Instrument Serif', serif;
@@ -33,7 +39,12 @@ div > h2 {
     width: 400px;
 }
 
+
+/* Footer */
+
+
 .bottom-container {
+    margin-top: auto;
     text-align: center;
     background-color: #9E7676;
     padding: 50px 0 20px;
@@ -57,8 +68,15 @@ div > h2 {
     padding: 20px 0;
 }
 
+
+/* Contact CSS */
+
 .contact {
     margin: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
 }
 
 
@@ -90,23 +108,30 @@ div > h2 {
     text-decoration: none;
 }
 
+
+/* Gallery CSS */
+
 .collection {
-    width: 800px;
     margin: 0 auto;
-    padding-bottom: 50px;
 
 }
 
 .photos {
-    width: 800px;
+    width: 80%;
     display: grid;
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     align-items: center;
     gap: 2rem;
+    padding-bottom: 100px;
 }
 
 .sample {
     width: 300px;
+    position: relative;
+    top: 20px;
+    left: 100px;
 }
 
 .gallery > h1 {
